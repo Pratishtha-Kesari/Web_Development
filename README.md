@@ -1,1 +1,104 @@
 # Basic_Card
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS CARD DESIGN</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+      }
+      body {
+        background: rgb(201, 121, 142);
+        padding: 45px;
+      }
+      .card {
+        background: rgb(225, 195, 205);
+        width: 260px;
+        height: 420px;
+        border-radius: 10px;
+      }
+      .image {
+        padding: 5px;
+      }
+      .image img {
+        border-radius: 2%;
+      }
+      .content {
+        padding: 10px;
+        font-style: italic;
+        color: rgba(74, 138, 19, 0.879);
+      }
+      .content p {
+        font-size: 14px;
+        padding: 1px;
+        color: rgb(2, 38, 13);
+      }
+      .content h2 {
+        color: rgba(4, 57, 15, 0.783);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        padding: 1px;
+      }
+      .capsule span {
+        border: 1px solid black;
+        padding: 0px 7px;
+        font-style: italic;
+        border-radius: 10px;
+        font-size: 13px;
+        background-color: rgb(196, 237, 255);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .capsule {
+        padding: 6px;
+        border: 13px;
+      }
+      .button {
+        text-align: center;
+      }
+      .button button {
+        padding: 2px 14px;
+        border-radius: 15px;
+        background-color: rgb(190, 231, 233);
+        font-style: italic;
+        font-size: 12px;
+        margin: 0px;
+        color: rgb(1, 0, 3);
+        cursor: pointer;
+      }
+      .button button:hover {
+        background: rgb(126, 196, 126);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img width ="250"
+        src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=appetizer-bowl-delicious-1640772.jpg&fm=jpg
+        alt="";
+      </div>
+      <div class="capsule">
+        <span>Lake</span>
+        <span>Mountains</span>
+      </div>
+      <div class="content">
+        <h2>FOOD</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+          odio quaerat laudantium numquam obcaecati, commodi iure fugit hic?
+          Impedit suscipit eaque quis tempora mollitia! Consequuntur, nam.
+        </p>
+      </div>
+      <div class="button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
+
