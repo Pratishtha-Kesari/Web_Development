@@ -1,2 +1,2 @@
 # Basic_Card
-A basic card formation using HTML.
+"This is my first attempt at creating a card using only HTML and CSS."
